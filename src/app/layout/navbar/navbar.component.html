@@ -1,0 +1,54 @@
+<div class="px-4 mx-auto max-w-7xl sm:px-6 bg-neutral-950">
+    <div class="relative pt-4 pb-16 sm:pb-4">
+        <nav class="relative flex items-center justify-between sm:h-10 md:justify-between md:flex-row-reverse"
+            aria-label="Global">
+            <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                    <a routerLink="/workout">
+                        <img class="w-auto h-10 sm:h-13" src="https://img.icons8.com/?size=80&id=65039&format=png"
+                            loading="lazy" width="202" height="40" />
+                    </a>
+                    <div class="md:hidden">
+
+                        <button
+                            class="p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="hidden md:flex md:space-x-5 list-none">
+                <li>
+                    <a routerLink="/workout/routines"
+                        class="cursor-pointer hover:bg-gray-800 rounded-md py-1 px-1 text-base font-normal text-white hover:text-gray-200 transition-colors duration-200">
+                        French press
+                    </a>
+                </li>
+                <li>
+                    <a routerLink="/workout/exercises"
+                        class="cursor-pointer hover:bg-gray-800 rounded-md py-1 px-1 text-base font-normal text-white hover:text-gray-200 transition-colors duration-200">
+                        Italian mocha
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="mt-4 space-y-4 md:hidden">
+            <a routerLink="/workout/routines"
+                class="block px-4 py-2 text-base text-white bg-transparent border border-white rounded-md transition-colors duration-200">
+                French press
+            </a>
+            <a routerLink="/workout/exercises"
+                class="block px-4 py-2 text-base text-white bg-transparent border border-white rounded-md transition-colors duration-200">
+                Italian mocha
+            </a>
+        </div>
+    </div>
+</div>
